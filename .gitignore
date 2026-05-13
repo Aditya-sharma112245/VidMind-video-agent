@@ -1,0 +1,51 @@
+# ── Secrets — NEVER commit API keys ──────────────────────────────────────────
+.env
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Downloaded / generated runtime files ──────────────────────────────────────
+downloades/
+vector_db/
+*.wav
+*.mp4
+*.mp3
+*.webm
+*.m4a
+
+# ── Whisper model cache (downloaded at runtime) ────────────────────────────────
+*.pt
+
+# ── HuggingFace / sentence-transformers model cache ───────────────────────────
+.cache/
+
+# ── ChromaDB persistent storage (if any) ──────────────────────────────────────
+chroma_db/
+chroma/
+
+# ── OS / editor junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Build artifacts ───────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
